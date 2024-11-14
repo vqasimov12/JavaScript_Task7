@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./index.js"> </script>
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="sect">
+      <div class="mainDiv">
+        <img src="./assets/images/img1.png" alt="" class="img1" />
+        <h2 style="margin-left: 20px">
+          Welcome <br />
+          &nbsp; ToDo app
+        </h2>
+        <img class="img2" src="./assets/images/img2.png" alt="" />
+      </div>
+      <div class="secondDiv">
+        <form id="signIn" action="">
+          <div id="h">
+            <h1>Log In</h1>
+          </div>
+          <div class="socials">
+            <div class="sc">
+              <a href="goto:">
+                <img src="./assets/images/google.png" alt="" />
+                <p>SignIn with Google</p>
+              </a>
+            </div>
+            <div class="sc">
+              <a href="goto:">
+                <img src="./assets/images/facebook.png" alt="" />
+                <p>SignIn with Facebook</p>
+              </a>
+            </div>
+          </div>
+          <input id="email1" placeholder="Email" required type="email" name="input1" />
+          <input placeholder="Password" required id="password1" type="password" name="input2"/>
+
+          <div id="h">
+            <button id="singInBtn" type="button" class="submitBtn">Login</button>
+          </div>
+        <div class="link">
+<p style="width: 170px;">You don't have account?</p>
+<a id="singUpLink" href="goto:">Sign Up</a>
+        </div>
+
+        </form>
+
+      <form id="signUp" class="signUp" action="">
+        <div id="h">
+          <h1>Registration</h1>
+        </div>
+        <div class="socials">
+          <div class="sc">
+            <a href="goto:">
+              <img src="./assets/images/google.png" alt="" />
+              <p>SignUp with Google</p>
+            </a>
+          </div>
+          <div class="sc">
+            <a href="goto:">
+              <img src="./assets/images/facebook.png" alt="" />
+              <p>SignUp with Facebook</p>
+            </a>
+          </div>
+        </div>
+        <input id="name2" placeholder="Name" required type="text" name="inputName" />
+        <input id="email2" placeholder="Email" required type="email" name="inputEmail" />
+        <input id="password2" placeholder="Password" required type="password" name="inputPassword"/>
+
+        <div id="h">
+          <button id="singUpBtn" class="submitBtn">Register</button>
+        </div>
+      <div class="link">
+<p>Already have an account? </p>
+<a id="singInLink" href="goto:">Log In</a>
+      </form>  
+      </div>
+    </div>
+  </body>
+</html>
